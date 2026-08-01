@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IStudent } from './shared/models/students';
+import { students } from './shared/consts/student';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang_first_pro';
+  studentsArr : IStudent[] = students;
 }
+

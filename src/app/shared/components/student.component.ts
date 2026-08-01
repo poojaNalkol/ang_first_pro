@@ -7,5 +7,6 @@ import { Component } from "@angular/core";
     templateUrl: "./student.component.html",
     styleUrls: ["./student.component.scss"]
 })
-
-export class Student {}
+export class StudentComponent {
+    students: Array<string> = ["pooja", "megha", "Bhumi", "varsha"]
+}
