@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { IStudent } from "../../models/students";
+import { students } from "../../consts/student";
 
 
 
@@ -8,5 +10,6 @@ import { Component } from "@angular/core";
     styleUrls: ["./student.component.scss"]
 })
 export class StudentComponent {
-    students: Array<string> = ["pooja", "megha", "Bhumi", "varsha"]
+    students: Array<IStudent> = students;
+    
 }

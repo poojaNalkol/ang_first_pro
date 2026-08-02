@@ -3,6 +3,5 @@ export interface IStudent {
     lname: string;
     age: number;
     email: string;
-    image: string;
 }
 
